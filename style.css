@@ -272,19 +272,19 @@ address {
 }
 
 .logo-sub {
-  display: none;
+  display: inline;
+  font-size: 0.48em;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  -webkit-text-fill-color: var(--color-primary);
+  background: none;
+  opacity: 0.85;
+  margin-left: 0.1em;
 }
 
 @media (min-width: 768px) {
   .logo-sub {
-    display: inline;
     font-size: 0.52em;
-    font-weight: 500;
-    letter-spacing: 0.03em;
-    -webkit-text-fill-color: var(--color-primary);
-    background: none;
-    opacity: 0.8;
-    margin-left: 0.15em;
   }
 }
 
