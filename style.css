@@ -1039,6 +1039,43 @@ address {
   background: var(--color-bg);
 }
 
+/* 準備中バナー */
+.gallery-coming-soon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 1rem;
+}
+
+.gallery-coming-soon-inner {
+  text-align: center;
+  background: var(--color-bg);
+  border: 2px dashed var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 3rem 2rem;
+  max-width: 480px;
+  width: 100%;
+}
+
+.gallery-coming-soon-icon {
+  font-size: 3rem;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.gallery-coming-soon-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--color-primary);
+  margin-bottom: 0.6rem;
+}
+
+.gallery-coming-soon-sub {
+  font-size: 0.9rem;
+  color: var(--color-text-sub);
+  line-height: 1.7;
+}
+
 /* ============================================================
    地域活動
    ============================================================ */
@@ -1138,6 +1175,7 @@ address {
 .instagram-bg { background: linear-gradient(135deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888); }
 .x-bg         { background: #000000; }
 .facebook-bg  { background: #1877F2; }
+.threads-bg   { background: #000000; }
 
 .sns-card-body {
   flex: 1;
