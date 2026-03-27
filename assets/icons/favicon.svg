@@ -5,16 +5,23 @@
       <stop offset="100%" style="stop-color:#ff7043"/>
     </linearGradient>
   </defs>
-  <!-- 角丸正方形の背景 -->
   <rect width="64" height="64" rx="14" ry="14" fill="url(#bg)"/>
-  <!-- 「こ」文字 -->
   <text
     x="32"
-    y="46"
+    y="26"
     text-anchor="middle"
     font-family="'Hiragino Sans', 'Noto Sans JP', sans-serif"
-    font-size="36"
+    font-size="22"
     font-weight="700"
     fill="white"
-  >こ</text>
+  >こぼり</text>
+  <text
+    x="32"
+    y="50"
+    text-anchor="middle"
+    font-family="'Hiragino Sans', 'Noto Sans JP', sans-serif"
+    font-size="22"
+    font-weight="700"
+    fill="white"
+  >良江</text>
 </svg>
